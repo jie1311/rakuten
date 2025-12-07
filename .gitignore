@@ -16,10 +16,13 @@ go.work
 
 # Dependency directories
 vendor/
+node_modules/
 
 # Build output
 /backend/backend
 /backend/main
+/frontend/dist/
+/frontend/build/
 
 # IDE specific files
 .vscode/
@@ -38,3 +41,11 @@ Thumbs.db
 
 # Log files
 *.log
+
+# NPM
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
